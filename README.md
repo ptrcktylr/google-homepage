@@ -2,6 +2,6 @@
 
 My attempt at recreating the Google homepage. Assignment from The Odin Project's curriculum.
 
-<!-- ## Self-Reflection -->
+## Self-Reflection -->
 
-<!--- Write what skills were required to make this as a self reflection --->
+It was difficult to align all the elements on the page and make them scalable when a user changes the window size, but I'm happy with how it turned out. Doing this involved a lot of messing around with width, height, padding, margin. Also involved using the Chrome developer tools to see how Google made their page.
