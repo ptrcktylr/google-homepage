@@ -80,7 +80,7 @@ html body{
     border: 2px solid #383D3F;
     background-color: #181a1b;
     margin: auto;
-    background-image: url("/images/google-mag-glass-icon.png");
+    background-image: url("../images/google-mag-glass-icon.png");
     background-size: 23px;
     background-repeat: no-repeat;
     background-position: 13px 10px;
