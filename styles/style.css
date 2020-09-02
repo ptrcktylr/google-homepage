@@ -1,11 +1,13 @@
-html {
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: #181a1b;
     font-family: arial, sans-serif;
 }
 
 #apps-icon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 #apps-icon img{
@@ -78,6 +80,10 @@ html {
     border: 2px solid #383D3F;
     background-color: #181a1b;
     margin: auto;
+    background-image: url("/images/google-mag-glass-icon.png");
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: 13px 10px;
 }
 
 input {
@@ -85,9 +91,90 @@ input {
     min-width: 239px;
     height: 34px;
     background-color: #181a1b;
-    margin-top: 2px;
     outline: none;
     box-shadow: none;
     border: none;
     border-width: none;
+    font: 16px arial, sans-serif;
+    color: rgb(211, 207, 201);
+    margin-left: 25px;
+}
+
+#mag-glass-icon {
+    display: block;
+    display: inline-block;
+}
+
+#mic-icon {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+#mic {
+    max-width: 20px;
+    max-height: 20px;
+    padding-left: 10px;
+}
+
+#search-button-container {
+    display: flex;
+    font: 400 13.3333px Arial;
+    color: #a8a196;
+    max-width: 300px;
+    padding-top: 30px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#search-button {
+    width: 93.406px;
+    height: 34px;
+    border: 1px solid #383D3F;
+    background-color: #202223;
+    border-radius: 5px;
+    padding: 0 16px 0 16px;
+    display: flex;
+    align-items: center;
+}
+
+#lucky-button {
+    width: 108.500px;
+    height: 34px;
+    border: 1px solid #383D3F;
+    background-color: #202223;
+    border-radius: 5px;
+    padding: 0 16px 0 16px;
+    display: flex;
+    align-items: center;
+}
+
+#footer {
+    height: 40px;
+    background-color: #202223;
+    color: 	#a9a297;
+    font-size: 14px;
+    border-top: 1px solid #383D3F;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#left-foot {
+    display: flex;
+    float: left;
+    margin-top: 10px;
+}
+
+#right-foot {
+    display: flex;
+    float: right;
+    margin-top: 10px;
+}
+
+.left-foot-item {
+    padding-left: 27px;
+}
+
+.right-foot-item {
+    padding-right: 27px;
 }
