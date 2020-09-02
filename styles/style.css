@@ -1,0 +1,93 @@
+html {
+    background-color: #181a1b;
+    font-family: arial, sans-serif;
+}
+
+#apps-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#apps-icon img{
+    max-width: 100%;
+    height: auto;
+}
+
+#apps-image:hover {
+    content: url("../images/google-apps-icon-hover.png");
+    cursor: pointer;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 32px;
+    margin-right: 15px;
+}
+
+#header {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #e8e6e3;
+    width: auto;
+    height: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+#right-head {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.right-item {
+    padding-left: 15px;
+}
+
+#left-head {
+    display: flex;
+}
+
+.left-item {
+    padding-left: 15px;
+}
+
+#logo-container {
+    margin: 89px 0 0 0;
+    width: auto;
+    height: 205px;
+}
+
+#google-logo {
+    width: 272px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px 0 0;
+}
+
+#search-bar {
+    text-align: center;
+    width: auto;
+    max-width: 484px;
+    min-width: 336px;
+    height: 44px;
+    border-radius: 50px;
+    border: 2px solid #383D3F;
+    background-color: #181a1b;
+    margin: auto;
+}
+
+input {
+    width: 387px;
+    min-width: 239px;
+    height: 34px;
+    background-color: #181a1b;
+    margin-top: 2px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-width: none;
+}
